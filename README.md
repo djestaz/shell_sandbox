@@ -1,2 +1,5 @@
 # shell_sandbox
-Demo and testing of shell scripts.
+
+Playground of miscellaneous scripts that maybe incorporated elsewhere... Or not!?!?!
+
+build
