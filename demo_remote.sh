@@ -1,4 +1,8 @@
 #!/bin/env sh
 
-HOST_NAME=$(hostname)
+APP="Demo Remote"
 
+variables() {
+  NSAPP=$(echo "${APP,,}" | tr -d ' ') 
+  HOST_NAME=$(hostname)
+}
