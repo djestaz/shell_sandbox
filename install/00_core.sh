@@ -6,14 +6,14 @@ ESC_RESET="0m"
 cecho() {
 	case "$1" in
     black  | bk) colour="30m"; shift;;
-		red    |  r) colour="31m"; shift;;
-		yellow |  y) colour="33m"; shift;;
-		green  |  g) colour="32m"; shift;;
-		blue   |  b) colour="34m"; shift;;
-		purple |  p) colour="35m"; shift;;
-		cyan   |  c) colour="36m"; shift;;
-		white  |  w) colour="37m"; shift;;
-		default|  *) colour="39m";;
+    red    |  r) colour="31m"; shift;;
+    yellow |  y) colour="33m"; shift;;
+    green  |  g) colour="32m"; shift;;
+    blue   |  b) colour="34m"; shift;;
+    purple |  p) colour="35m"; shift;;
+    cyan   |  c) colour="36m"; shift;;
+    white  |  w) colour="37m"; shift;;
+    default|  *) colour="39m";;
   esac
   case "$1" in 
     bold   | bo) bold="1"; shift;;
