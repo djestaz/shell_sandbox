@@ -4,7 +4,7 @@ ESC_CODE="\033["
 ESC_RESET="0m"
 
 cecho() {
-	case "$1" in
+  case "$1" in
     black  | bk) colour="30m"; shift;;
     red    |  r) colour="31m"; shift;;
     yellow |  y) colour="33m"; shift;;
